@@ -6,11 +6,11 @@ using System.Numerics;
 
 namespace Coder
 {
-    public class MnemonicCoder
+    public  class MnemonicCoder
     {
-        private SimpleDatabaseProject.LocalDataConnector client = new SimpleDatabaseProject.LocalDataConnector();
+        private  SimpleDatabaseProject.LocalDataConnector client = new SimpleDatabaseProject.LocalDataConnector();
 
-        public string GetMnemonicString (string enterString)
+        public  string GetMnemonicString (string enterString)
         {
             //mnemonic string
             string MnemonicString = "";
